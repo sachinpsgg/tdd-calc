@@ -8,5 +8,8 @@ describe('add function', () => {
     it('should return number for single number', () => {
         expect(add("1")).toBe(1);
     });
-
+    //test 3
+    it('should return the sum for two numbers separated by a comma', () => {
+        expect(add("1,2")).toBe(3);
+    });
 });
